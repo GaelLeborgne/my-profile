@@ -1,0 +1,37 @@
+body{
+	background-color : grey;
+	font-family: comic sans ms;
+	font-size: 1vw;
+}
+h1,h2{
+	color : red;
+}
+.main {
+	display : flex;
+	box-shadow: 10px 5px 5px red;
+	align-items : center;
+	width: 70vw;
+	margin: 5vw auto;
+	background-color: white;
+	flex-wrap: wrap;
+}
+.secondaire {
+	align-items : center;
+	padding:  20px;
+	margin: 40px;
+	display : flex;
+	box-shadow: 10px 5px 5px red;
+	flex-grow: 1;
+	background-color: grey;
+}
+.image_profil {
+	border-radius: 50%;
+	width: 15vw;
+}
+.image {
+    width: 20vw;
+    align-items: center;
+}
+.petite-image {
+	width : 5vw;
+}
